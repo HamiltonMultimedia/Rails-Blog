@@ -1,0 +1,33 @@
+
+<%= form_with model: [ @article, @article.comments.build ] do |form| %>
+    <p>
+    <div class="col w-50 p-3">
+    <h2>Add a comment:</h2>
+        <div class="row">
+            <div class="input-group mb-3">
+            <%= form.text_field :commenter, {placeholder: 'Commenter', class: 'form-control'} %>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-group">
+            <%= form.text_area :body, {placeholder: 'Comment', class: 'form-control'} %>
+            </div>
+        </div>
+        <div class="row">
+        <p>
+            <div class="input-group mb-3">
+                <%= form.select :status, ['public', 'private', 'archived'], selected: 'public', class: 'form-control' %>
+            </div>
+
+            </div>
+
+                <p>
+                    <%= form.submit(class: 'btn btn-primary btn-lg') %>
+                </p>
+        </p>
+
+</div>
+    
+<% end %>
+
+    

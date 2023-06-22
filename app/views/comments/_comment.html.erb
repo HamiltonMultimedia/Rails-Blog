@@ -1,0 +1,15 @@
+<p class="col-md-8 fs-6 fw-lighter">
+<% unless comment.archived? %>
+<div class="card">
+<div class="card-body">
+<h6 class="card-title"><%= comment.commenter %></h6>
+<p class="card-text fw-lighter"><%= comment.body %></p>
+<%= link_to "Delete", [comment.article, comment], data: {
+  turbo_method: :delete,
+  turbo_confirm: "Are you sure?"
+  }, class:"btn btn-outline-danger btn-sm" %>
+</div>
+</div>
+
+  </p>
+<% end %>

@@ -1,0 +1,25 @@
+<div class="p-5 mb-4 bg-body-tertiary rounded-3">
+      <div class="container-fluid py-5">
+        <h2 class="display-5 fw-bold"><%= @article.title %></h2>
+        <p class="col-md-8 fs-4 fw-lighter"><%= @article.body %></p>
+
+            <%= link_to "Edit", edit_article_path(@article), class:"btn btn-outline-secondary" %>
+            <%= link_to "Delete", article_path(@article), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"},
+                    class:"btn btn-outline-danger" %>
+        
+                        <p>
+                        <div class="card w-50 p-3">
+                        <div class="card-header">
+                        <h2>Comments</h2>
+                        <%= render @article.comments %>
+                        </div>
+                      </div>
+                      </p>                            
+        
+        <%= render 'comments/form' %>
+      </div>
+</div>
+
+
