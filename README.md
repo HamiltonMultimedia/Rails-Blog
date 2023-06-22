@@ -13,7 +13,9 @@ Ruby is the programming language that allows you to create objects and make them
 
 Rails is the framework that runs your Ruby programs and allows you to create systems with them alot faster and it makes the workflow more efficient than any other framework I have ever seen.
 
-I'm using Terraform for IaC and a Ubuntu Linode for hosting. (I did it the hard way...LOL).
+I'm using Terraform for IaC and an Ubuntu Linode for hosting.
+</br>
+(I did it the hard way...LOL).
 
 ---
 
