@@ -3,6 +3,14 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.3"
 
+# Adding Capistrano
+gem 'capistrano', '~> 3.11'
+gem 'capistrano-rails', '~> 1.4'
+gem 'capistrano-passenger', '~> 0.2.0'
+gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
+gem "ed25519"
+gem "bcrypt_pbkdf"
+
  # Use htmlbeautifier to format the .erb files
  gem "htmlbeautifier"
 
@@ -13,7 +21,7 @@ gem "rails", "~> 7.0.5"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-# gem "sqlite3", "1.6.3"
+gem "sqlite3", "1.6.3"
 
 # Installing Postgres for prod
 gem 'pg'
@@ -33,14 +41,6 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-# Adding Capistrano
-gem 'capistrano', '~> 3.11'
-gem 'capistrano-rails', '~> 1.4'
-gem 'capistrano-passenger', '~> 0.2.0'
-gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
-
-gem "ed25519"
-gem "bcrypt_pbkdf"
 
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 4.0"
