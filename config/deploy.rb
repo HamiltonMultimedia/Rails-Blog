@@ -3,6 +3,7 @@ lock "~> 3.17.3"
 
 set :application, "rails-blog"
 set :repo_url, "git@github.com:HamiltonMultimedia/Rails-Blog.git"
+set :branch, "main"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
