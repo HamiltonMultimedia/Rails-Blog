@@ -4,10 +4,14 @@ lock "~> 3.17.3"
 set :application, "rails-blog"
 set :repo_url, "git@github.com:HamiltonMultimedia/Rails-Blog.git"
 set :branch, "main"
+set :default_env, { rbenv_bin_path: '~/.rbenv/bin' }
 set :deploy_to, "/home/developer/#{fetch :application}"
 set :pty, true
-set :linked_files, %w{config/database.yml, config/master.key}
-set :linked_dirs, {bin log tmp/pids tmp/cache tmp/sockets vendor/bundle .bundle public/system public/uploads}
+set :bundle_flags, '--deployment'
+set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/master.key')
+set :linked_dirs, fetch(:linked_dirs, []).push('bin', 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads' )
+# set :linked_files, %w{config/database.yml, config/application.yml}
+# set :linked_dirs, "bin", "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", ".bundle", "public/system", "public/uploads"
 set :keep_releases, 5
 set :rbenv_type, :user
 set :rbenv_ruby, "truffleruby-23.0.0"
