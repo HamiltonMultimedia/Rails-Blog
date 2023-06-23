@@ -182,6 +182,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
+    redis (4.8.1)
     regexp_parser (2.8.1)
     rexml (3.2.5)
     rubyzip (2.3.2)
@@ -245,6 +246,7 @@ DEPENDENCIES
   pg
   puma (~> 5.0)
   rails (~> 7.0.5)
+  redis (~> 4.0)
   selenium-webdriver
   spring
   sprockets-rails
