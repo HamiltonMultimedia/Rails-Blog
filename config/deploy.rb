@@ -7,7 +7,7 @@ set :branch, "main"
 set :default_env, { rbenv_bin_path: '~/.rbenv/bin' }
 set :deploy_to, "/home/developer/#{fetch :application}"
 set :pty, true
-set :bundle_flags, '--deployment'
+set :bundle_flags, '--quiet'
 set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/master.key')
 set :linked_dirs, fetch(:linked_dirs, []).push('bin', 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads' )
 # set :linked_files, %w{config/database.yml, config/application.yml}
