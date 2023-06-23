@@ -4,13 +4,20 @@ lock "~> 3.17.3"
 set :application, "rails-blog"
 set :repo_url, "git@github.com:HamiltonMultimedia/Rails-Blog.git"
 set :branch, "main"
+set :deploy_to, "/home/developer/#{fetch :application}"
+set :pty, true
+set :linked_files, %w{config/database.yml, config/master.key}
+set :linked_dirs, {bin log tmp/pids tmp/cache tmp/sockets vendor/bundle .bundle public/system public/uploads}
+set :keep_releases, 5
+set :rbenv_type, :user
+set :rbenv_ruby, "truffleruby-23.0.0"
+
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
-set :deploy_to, "/home/developer/#{fetch :application}"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
@@ -24,7 +31,6 @@ set :deploy_to, "/home/developer/#{fetch :application}"
 
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml", 'config/master.key'
-append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads'
 
 # Default value for linked_dirs is []
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "tmp/webpacker", "public/system", "vendor", "storage"
@@ -37,7 +43,6 @@ append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bund
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
-set :keep_releases, 5
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure

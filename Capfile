@@ -1,8 +1,18 @@
-# Load DSL and set up stages
+install_plugin Capistrano::SCM::Git
 require "capistrano/setup"
+require "capistrano/deploy"
+require "capistrano/scm/git"
+require 'capistrano/rails'
+require 'capistrano/passenger'
+require 'capistrano/rbenv'
+Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
+
+
+# Load DSL and set up stages
+# require "capistrano/setup"
 
 # Include default deployment tasks
-require "capistrano/deploy"
+# require "capistrano/deploy"
 
 # Load the SCM plugin appropriate to your project:
 #
@@ -12,15 +22,12 @@ require "capistrano/deploy"
 # require "capistrano/scm/svn"
 # install_plugin Capistrano::SCM::Svn
 # or
-require "capistrano/scm/git"
-install_plugin Capistrano::SCM::Git
+# require "capistrano/scm/git"
+# install_plugin Capistrano::SCM::Git
 
-require 'capistrano/rails'
-require 'capistrano/passenger'
-require 'capistrano/rbenv'
 
-set :rbenv_type, :user
-set :rbenv_ruby, "truffleruby-23.0.0"
+# set :rbenv_type, :user
+# set :rbenv_ruby, "truffleruby-23.0.0"
 # set :rbenv_ruby, `cat .ruby-version`.chomp
 
 # Include tasks from other gems included in your Gemfile
@@ -43,4 +50,4 @@ set :rbenv_ruby, "truffleruby-23.0.0"
 # require "capistrano/passenger"
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
-Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
+# Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
