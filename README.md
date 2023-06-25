@@ -1,4 +1,4 @@
-Terence's Gems Blog
+Terence's Blog of Gems
 ==================
 
 ![AI Generated Rubies](app/assets/images/rubies.png)
@@ -6,16 +6,17 @@ This is an AI Generated image of Ruby Gems. 💎
 
 ---
 
-I built this website because I wanted to match the skills listed on a job posting I saw recently. Also, I saw this as an opportunity to kick my portfolio up a notch!
+I built this [website](http://rails-blog.terencehamilton.com) because I wanted to match the skills listed on a job posting I saw recently. Also, I saw this as an opportunity to kick my portfolio up a notch!
 This is my 1st attempt at a Ruby on Rails app and it seems to have been quite successful!
 
-Ruby is the programming language that allows you to create objects and make them do things programmatically.
+[Ruby](https://www.ruby-lang.org/en/) is a programming language that allows you to create objects and make them do things using coded programs or programmatically.
 
-Rails is the framework that runs your Ruby programs and allows you to create systems with them alot faster and it makes the workflow more efficient than any other framework I have ever seen.
+Additionally, [Rails](https://rubyonrails.org) is the framework that sets up a lovely development environment, runs your Ruby programs and connects your app to a database management system (DBMS) (ex. [PostgreSQL](https://www.postgresql.org) ) alot faster. Finally, it makes the development workflow more efficient than any other framework I have ever seen.
 
-I'm using Terraform for IaC and an Ubuntu Linode for hosting.
+I'm using [Terraform](https://www.terraform.io) for Infrastructure as Code ([IaC](https://www.terraform.io/use-cases/infrastructure-as-code)) and an [Ubuntu](https://ubuntu.com) Linux operating system (OS) running on [Linode](https://www.linode.com) for hosting.
 </br>
-(I did it the hard way...LOL).
+</br>
+(IYKYK...the links & thorough explanations are for those who don't know yet. 😌).
 
 ---
 
