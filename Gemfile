@@ -21,7 +21,7 @@ gem "rails", "~> 7.0.5"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "1.6.3"
+gem "sqlite3"
 
 # Installing Postgres for prod
 gem 'pg'
