@@ -1,7 +1,13 @@
 <div class="p-5 mb-4 bg-body-tertiary rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Articles</h1>
-        <h3>My blog has <%= Article.public_count %> article and counting!</h3>
+        <h3>My blog has <%= Article.public_count %> 
+        <%= if Article.public_count > 1 
+          count_public = "articles" 
+        else 
+          count_public = "article" 
+        end
+      %> and counting!</h3>
         <ul>
     <% @articles.each do |article| %>
         <% unless article.archived? %>
