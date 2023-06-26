@@ -1,13 +1,12 @@
 <%= form_with model: article do |form| %>
     <p>
     <div class="col w-50 p-3">
-    <h2>Edit your article:</h2>
         <div class="row">
         <%= form.label :title %><br>
             <div class="input-group mb-3">
-            
             <%= form.text_field :title, {class: 'form-control'} %>
             <div>
+
         <% article.errors.full_messages_for(:title).each do |message| {class: 'form-control'} %>
             <div><%= message %></div>
                 <% end %>
@@ -18,7 +17,7 @@
         <div class="row">
         <%= form.label :body %><br>
             <div class="input-group">
-            <%= form.text_area :body, {placeholder: 'Comment', class: 'form-control'} %>
+            <%= form.text_area :body, {placeholder: 'Add your 2¢ here', class: 'form-control'} %>
             </div>
         </div>
 
@@ -36,7 +35,7 @@
                     <%= form.submit(class: 'btn btn-primary btn-lg') %>
                 </p>
                 <p>
-            
+                <%= link_to "Back", article_path(@article), class:"btn btn-outline-info" %>
             </p>
         </p>
 </div>
