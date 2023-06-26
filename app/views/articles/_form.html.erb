@@ -29,11 +29,15 @@
                 <%= form.select :status, ['public', 'private', 'archived'], selected: 'public', class: 'form-control' %>
             </div>
             
+            
 </p>
             </div>
                 <p>
                     <%= form.submit(class: 'btn btn-primary btn-lg') %>
                 </p>
+                <p>
+            <%= link_to "Back", article_path(@article), class:"btn btn-outline-info" %>
+            </p>
         </p>
 </div>
     
