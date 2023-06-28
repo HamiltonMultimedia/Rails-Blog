@@ -7,7 +7,7 @@ This is an AI Generated image of Ruby Gems. 💎
 
 ---
 
-I built this [website](http://rails-blog.terencehamilton.com) because I wanted to match the skills listed on a job posting I saw recently. Also, I saw this as an opportunity to kick my portfolio up a notch!
+I built this [website](https://rails-blog.terencehamilton.com) because I wanted to match the skills listed on a job posting I saw recently. Also, I saw this as an opportunity to kick my portfolio up a notch!
 This is my 1st attempt at a Ruby on Rails app and it seems to have been quite successful!
 
 [Ruby](https://www.ruby-lang.org/en/) is a programming language that allows you to create objects and make them do things using coded programs or programmatically.
@@ -55,7 +55,7 @@ Things you may want to cover:
 
 # License.
 
-Copyright (c) 2023, [Terence Hamilton](http://terencehamilton.com)
+Copyright (c) 2023, [Terence Hamilton](https://terencehamilton.com)
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
