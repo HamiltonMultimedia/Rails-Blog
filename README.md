@@ -3,7 +3,7 @@ Terence's Blog of Gems
 
 ![AI Generated Rubies](app/assets/images/rubies.png)
 </br>
-This is an AI Generated image of Ruby Gems. 💎
+This is an AI Generated [image](https://labs.openai.com/s/QxVI6vYEFJNHPQHvBc6AwSLq) of Ruby Gems. 💎
 
 ---
 
