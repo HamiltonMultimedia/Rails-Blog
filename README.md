@@ -3,18 +3,18 @@ Terence's Blog of Gems
 
 ![AI Generated Rubies](app/assets/images/rubies.png)
 </br>
-This is an AI Generated [image](https://labs.openai.com/s/QxVI6vYEFJNHPQHvBc6AwSLq) of Ruby Gems. 💎
+This is an AI Generated <a href="https://labs.openai.com/s/QxVI6vYEFJNHPQHvBc6AwSLq" target="_blank">image</a> of Ruby Gems. 💎
 
 ---
 
-I built this [website](https://rails-blog.terencehamilton.com) because I wanted to match the skills listed on a job posting I saw recently. Also, I saw this as an opportunity to kick my portfolio up a notch!
+I built this <a href="https://rails-blog.terencehamilton.com" target="_blank">website</a> because I wanted to match the skills listed on a job posting I saw recently. Also, I saw this as an opportunity to kick my portfolio up a notch!
 This is my 1st attempt at a Ruby on Rails app and it seems to have been quite successful!
 
-[Ruby](https://www.ruby-lang.org/en/) is a programming language that allows you to create objects and make them do things using coded programs or programmatically.
+<a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a> is a programming language that allows you to create objects and make them do things using coded programs or programmatically.
 
-Additionally, [Rails](https://rubyonrails.org) is the framework that sets up a lovely development environment, runs your Ruby programs and connects your app to a database management system (DBMS) (ex. [PostgreSQL](https://www.postgresql.org) ) alot faster. Finally, it makes the development workflow more efficient than any other framework I have ever seen.
+Additionally, <a href="https://rubyonrails.org" target="_blank">Rails</a> is the framework that sets up a lovely development environment, runs your Ruby programs and connects your app to a database management system (DBMS) (ex. <a href="https://www.postgresql.org" target="_blank">PostgreSQL</a> ) alot faster. Finally, it makes the development workflow more efficient than any other framework I have ever seen.
 
-I'm using [Terraform](https://www.terraform.io) for Infrastructure as Code ([IaC](https://www.terraform.io/use-cases/infrastructure-as-code)) and an [Ubuntu](https://ubuntu.com) Linux operating system (OS) running on [Linode](https://www.linode.com) for hosting.
+I'm using <a href="https://www.terraform.io" target="_blank">Terraform</a> for Infrastructure as Code (<a href="https://www.terraform.io/use-cases/infrastructure-as-code" target="_blank">IaC</a>) and an <a href="https://ubuntu.com" target="_blank">Ubuntu</a> Linux operating system <a href="https://www.linode.com" target="_blank">Linode</a> for hosting.
 </br>
 </br>
 (IYKYK...the links & thorough explanations are for those who don't know yet. 😌).
@@ -30,7 +30,7 @@ application up and running.
 
 *Much more documentaion comming soon...*
 
-> [Here's the official Rails documentation in the mean time!](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails)
+> <a href="https://guides.rubyonrails.org/getting_started" target="_blank">Here's the official Rails documentation in the mean time!</a> 
 
 
 Things you may want to cover:
@@ -55,7 +55,7 @@ Things you may want to cover:
 
 # License.
 
-Copyright (c) 2023, [Terence Hamilton](https://terencehamilton.com)
+Copyright (c) 2023, <a href="https://terencehamilton.com" target="_blank">Terence Hamilton</a>
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
