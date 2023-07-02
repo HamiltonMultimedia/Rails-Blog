@@ -30,7 +30,7 @@ application up and running.
 
 *Much more documentaion comming soon...*
 
-> <a href="https://guides.rubyonrails.org/getting_started" target="_blank">Here's the official Rails documentation in the mean time!</a> 
+> <a href="https://edgeguides.rubyonrails.org/getting_started.html" target="_blank">Here's the official Rails documentation in the mean time!</a> 
 
 
 Things you may want to cover:
