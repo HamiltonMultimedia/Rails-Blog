@@ -30,7 +30,7 @@ application up and running.
 
 *Much more documentaion comming soon...*
 
-> [Here's the official Rails documentation in the mean time!](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails)
+> [Here's the official Rails documentation in the meantime!](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails)
 
 
 Things you may want to cover:
